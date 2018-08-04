@@ -1,10 +1,9 @@
-type Message = {
-  body: string,
-  from: string 
-}
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
 
-let message: Message
-message.from ='Chirs'
-message.body = 'Greetings'
+import Message from './components/Message'
 
-console.log(`New message from ${message.from}: ${message.body}`)
+ReactDOM.render(
+  <Message from='Chris' body='Greetings' />,
+  document.getElementById('root')
+)
