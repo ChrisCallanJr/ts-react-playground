@@ -2,11 +2,10 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 declare let module: any
 
-import MainNav from './components/MainNav'
-//import Message from './components/Message'
+import Frame from './Frame'
 
 ReactDOM.render(
-  <MainNav />,
+  <Frame />,
   document.getElementById('root')
 )
 
